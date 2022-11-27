@@ -1,0 +1,13 @@
+WAP to calculate area of circle with radius(float).      (collect using input function)
+
+pi = 3.142
+r = float(input("enter the radius "))
+print(type(r))
+area = pi * r * r
+print(area)
+ 
+output: 
+enter the radius 3.4
+<class 'float'>
+36.32151999999999
+       
