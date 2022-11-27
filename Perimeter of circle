@@ -1,0 +1,8 @@
+pi = 3.142
+radius = 10.2
+perimeter = 2 * pi * radius
+print(perimeter)
+
+
+Output:64.09679999999999
+   
