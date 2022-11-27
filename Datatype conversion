@@ -1,0 +1,113 @@
+#converting integer to other datatypes
+
+int1 = 10
+print("the integer value is ",int1)
+print(type(int1))
+
+#int to float
+int1_float = float(int1)
+print("integer converted to float value ",int1_float)
+print(type(int1_float))
+
+#int to str
+int1_str = str(int1)
+print("integer converted to str value ",int1_str)
+print(type(int1_str))
+
+#int to bool
+int1_bool = bool(int1)
+print("integer converted to bool ",int1_bool)
+print(type(int1_bool))
+
+
+#converting float to other datatypes
+
+float1 = 10.2
+print("the float value is ",float1)
+print(type(float1))
+
+#float to int
+float_int = int(float1)
+print("float converted to integer value ",float_int)
+print(type(float_int))
+
+#float to str
+float_str = str(float1)
+print("float converted to str value ",float_str)
+print(type(float_str))
+
+#float to bool
+float_bool = bool(float1)
+print("float converted to bool value ",float_bool)
+print(type(float_bool))
+
+
+#converting bool to other datatypes
+
+bool1 = True
+print("the bool value is ",bool)
+print(type(bool1))
+
+#bool to int
+bool_int = int(bool1)
+print("bool is converted to int value ",bool_int)
+print(type(bool_int))
+
+#bool to float
+bool_float = float(bool1)
+print("bool is converted to float value ",bool_float)
+print(type(bool_float))
+
+#bool to str
+bool_str = str(bool1)
+print("bool is converted to string value ",bool_str)
+print(type(bool_str))
+
+
+#converting str to other datatypes
+
+str1 = "hello"
+print("the str value is ",str)
+print(type(str1))
+
+#str to int
+str_int = int(str1)
+print("str is converted to int value ",str_int)
+print(type(str_int))
+
+OUTPUT:
+
+the integer value is  10
+<class 'int'>
+integer converted to float value  10.0
+<class 'float'>
+integer converted to str value  10
+<class 'str'>
+integer converted to bool  True
+<class 'bool'>
+the float value is  10.2
+<class 'float'>
+float converted to integer value  10
+<class 'int'>
+float converted to str value  10.2
+<class 'str'>
+float converted to bool value  True
+<class 'bool'>
+the bool value is  <class 'bool'>
+<class 'bool'>
+bool is converted to int value  1
+<class 'int'>
+bool is converted to float value  1.0
+<class 'float'>
+bool is converted to string value  True
+<class 'str'>
+the str value is  <class 'str'>
+<class 'str'>
+Traceback (most recent call last):
+  File "I:/Python-Test/datatype-conversion.py", line 74, in <module>
+    str_int = int(str1)
+ValueError: invalid literal for int() with base 10: 'hello'
+
+==========================================
+###string cannot be converted to any datatypes.
+
