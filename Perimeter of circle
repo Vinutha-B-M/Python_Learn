@@ -1,3 +1,5 @@
+WAP to calculate perimeter of circle with radius 10.2
+
 pi = 3.142
 radius = 10.2
 perimeter = 2 * pi * radius
