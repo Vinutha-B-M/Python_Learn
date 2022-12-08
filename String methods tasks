@@ -1,0 +1,47 @@
+Task1:
+
+Get one string from user
+identify the middle character of the string
+
+
+word = input("Enter your name : ")
+Enter your name : Vinutha
+print(word[int(len(word)/2)])
+u
+
+======================================================================================
+
+Task2:
+
+string1: ***python***
+string1: **python********
+string: ********java*******
+
+output: python  (strip,rstrip,lstrip method *)
+
+txt = ("***python***")
+x = txt.strip("*")
+print(x)                      >>>> python
+
+txt = ("***python***")
+x = txt.lstrip("*")
+print(x)                      >>>> python***
+
+txt = ("***python***")
+x = txt.rstrip("*")
+print(x)                      >>>> ***python
+
+=====================================================================================
+
+Task3: (name<space>float)
+
+collect three strings from user  name<space>float
+
+string1: "ravi 10.30"  
+string2: "meghala 12.19"
+string3: "Gokul 20.20"
+
+split + indexing
+
+10.30 + 12.19 + 20.20 ===> output ===> add it 42.69
+
