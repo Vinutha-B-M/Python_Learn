@@ -63,9 +63,8 @@ OUTPUT: The addition of float values is : 42.69
 Task4:
 
 #collect two strings from user
-
-string1: python
-String2: java
+#string1: python
+#String2: java
 
 output ===> jythonpava64hv
 ==
@@ -79,7 +78,102 @@ print("The output string is :", output_str)
 OUTPUT: Enter the 1st string : python
 Enter the 2nd string : java
 The output string is : jythonpava64hv
+==============
+string1: maths
+string2: science
 
+output ===> sathsmcience57te
+
+str1 = input("Enter the 1st string : ")
+str2 = input("Enter the 2nd string : ")
+
+output_str = str2[0] + str1[1:] + str1[0] + str2[1:] + str(len(str1)) + str(len(str2))  + str1[int(len(str1)/2)] + str2[int(len(str2)/2)]
+
+print("The output string is :", output_str)
+
+OUTPUT: Enter the 1st string : maths
+Enter the 2nd string : science
+The output string is : sathsmcience57te
 =============================================================================
+
+Task5:
+
+#Collect two strings from user
+#string1: wikipedia
+#string2: typescript
+
+output: p  +  c   ===> ascii value of p + ascii value of c  ====>  198
+(ord , chr)
+
+
+str1 = input("Enter the 1st string : ")
+str2 = input("Enter the 2nd string : ")
+
+str1_char_asci = ord(str1[int(len(str1)/2)])
+str2_char_asci = ord(str2[int(len(str2)/2)])
+
+asci_total = str1_char_asci + str2_char_asci
+print("the asci value of middle char is :",asci_total)
+
+OUTPUT:
+Enter the 1st string : wikipedia
+Enter the 2nd string : typescript
+211
+the asci value of middle char is : 211
+
+======================================================================
+Task6:
+
+#collect one string from user:
+#string: computer
+#output: c6r
+
+#string: mathematics
+#output: m9s
+
+str1 = input("Enter a string : ")
+
+output_str1 = str1[0] + str(len(str1)-2) + str1[-1]
+print(output_str1)
+
+OUTPUT:
+Enter a string : computer            
+c6r
+
+Enter a string : mathematics
+m9s
+
+=======================================================================
+Task7
+
+#Say hello world with python
+
+print("Hello, World!")
+
+O/P: 
+Hello, World!
+
+=========================================================================
+Task 8
+
+#swapcase
+
+a = "my Name Is VInutHa"
+print(a.swapcase())
+
+OUTPUT: MY nAME iS viNUThA
+=============================================================================
+Task9
+
+#what;s your name
+
+a = "What's your name"
+txt = a.replace("'",";")
+print(txt)
+
+Output: What;s your name
+========================================================================
+
+
 
 
