@@ -58,3 +58,28 @@ print("The addition of float values is :" , total)
 
 OUTPUT: The addition of float values is : 42.69
 
+======================================================================================
+
+Task4:
+
+#collect two strings from user
+
+string1: python
+String2: java
+
+output ===> jythonpava64hv
+==
+str1 = input("Enter the 1st string : ")
+str2 = input("Enter the 2nd string : ")
+
+output_str = str2[0] + str1[1:] + str1[0] + str2[1:] + str(len(str1)) + str(len(str2))  + str1[int(len(str1)/2)] + str2[int(len(str2)/2)]
+
+print("The output string is :", output_str)
+
+OUTPUT: Enter the 1st string : python
+Enter the 2nd string : java
+The output string is : jythonpava64hv
+
+=============================================================================
+
+
