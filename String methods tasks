@@ -45,3 +45,16 @@ split + indexing
 
 10.30 + 12.19 + 20.20 ===> output ===> add it 42.69
 
+string1 = "ravi 10.30"  
+string2 = "meghala 12.19"
+string3 = "Gokul 20.20"
+
+vinutha1 = string1.split()
+vinutha2 = string2.split()
+vinutha3 = string3.split()
+
+total = float(vinutha1[1]) + float(vinutha2[1]) + float(vinutha3[1])
+print("The addition of float values is :" , total)
+
+OUTPUT: The addition of float values is : 42.69
+
