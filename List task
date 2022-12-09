@@ -6,6 +6,8 @@
 #find sum (List) + min + Max 
 #Find median of the list
 #remove duplicates from list and give output in the format of tuple
+===========================
+#Create an empty list (two ways)
 
 li1 = []
 print(li1)
@@ -20,3 +22,43 @@ OUTPUT:
 <class 'list'>
 []
 <class 'list'>
+======================================
+#Concatenate with [5,6,7,8]
+#add 8,9,1,5,6,7,8,1 elements to that list
+
+li1 = [5,6,7,8]
+li2 = [8,9,1,5,6,7,8,1]
+print(li1 + li2)
+
+Output:
+[5, 6, 7, 8, 8, 9, 1, 5, 6, 7, 8, 1]
+========================================
+#Find frequency of 8 (count)
+
+li1 = [5, 6, 7, 8, 8, 9, 1, 5, 6, 7, 8, 1]
+print(li1.count(8))
+
+O/P:
+3
+===========================================
+#find sum (List) + min + Max 
+
+Li1 = [5, 6, 7, 8, 8, 9, 1, 5, 6, 7, 8, 1]
+
+print(len(Li1))
+print(sum(Li1))
+print(min(Li1))
+print(max(Li1))
+
+O/P:
+12
+71
+1
+9
+========================================
+
+
+
+
+
+
