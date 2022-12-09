@@ -1,0 +1,19 @@
+#Create two tuples (1,4,5,6,7,8) (5,6,7,8,9)
+#Find the common elements between two tuples
+#Concatenate both tuples and remove duplicates from tuple
+#Find the index value of 9 (after concatenation)
+#multiply above elements 3 times
+
+#Create two tuples (1,4,5,6,7,8) (5,6,7,8,9)
+tup1 = (1,4,5,6,7,8) 
+tup2 = (5,6,7,8,9)
+print(tup1 + tup2)
+
+O/P:
+(1, 4, 5, 6, 7, 8, 5, 6, 7, 8, 9)
+
+tup1 = (1,2,3,4,5,6,7,8,9) 
+
+
+#Find the index value of 9 (after concatenation)
+print(tup1.index(9))
