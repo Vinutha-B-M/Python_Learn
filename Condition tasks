@@ -28,3 +28,27 @@ Enter science marks : 35
 Enter english marks : 35
 35.0
 Grade D
+
+==============================================
+#Fizz buzz
+#Get one number from user
+#5
+#Multiple of 3 ==> Fizz
+#Multiple of 5 ===> buzz
+#Multiple of 3 and 5 ===> Fizzbuzz
+#None ==> Invalid number
+
+a = int(input("Enter a number : "))
+
+if(a % 3 == 0 and a % 5 == 0):
+    print("Fizzbuzz")
+elif(a % 3 == 0):
+    print("Fizz")
+elif(a % 5 == 0):
+    print("buzz")
+else:
+    print("invalid number")
+    
+O/P:
+Enter a number : 15
+Fizzbuzz
