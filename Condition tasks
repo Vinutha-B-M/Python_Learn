@@ -1,0 +1,30 @@
+#collect three marks from user
+#calculate mark1 + mark2 + mark3 / 3
+
+#if calculate > 90 ===> Grade A
+#if calculate > 75 ==> Grade B
+#calculate > 50  ==> grade C
+#Other wise ===> Grade D
+
+marks1 = input("Enter maths marks : ")
+marks2 = input("Enter science marks : ")
+marks3 = input("Enter english marks : ")
+
+total = (int(marks1) + int(marks2) + int(marks3)) / 3
+print(total)
+
+if(total > 90):
+    print("Grade A")
+elif(total > 75):
+    print("Grade B")
+elif(total > 50):
+    print("Grade C")
+else:
+    print("Grade D")
+
+O/P:
+Enter maths marks : 35
+Enter science marks : 35
+Enter english marks : 35
+35.0
+Grade D
