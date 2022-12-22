@@ -13,3 +13,15 @@ r = float(input("enter the radius :"))
 def area( pi, r):
     print("area", pi * r * r)
 area(pi, r)
+
+#==========================================
+import math
+def area():
+    r = float(input("Enter radius : "))
+    print(math.pi * pow(r,2))
+area()
+
+#===========================================
+import math
+r = float(input("Enter radius : "))
+print(math.pi * pow(r,2))
