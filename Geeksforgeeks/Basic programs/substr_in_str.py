@@ -16,3 +16,10 @@ if a.find(b) == -1:
 else:
     print("is substring")
 
+#=================================
+a = input("Enter a string : ")
+b = input("Enter a substring : ")
+if a.count(b) > 0:
+    print("is substring")
+else:
+    print("is not substring")
