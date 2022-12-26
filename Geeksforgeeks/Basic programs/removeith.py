@@ -16,3 +16,10 @@ for i in range(len(a)):
     if i != pos:
         b = b + a[i]
 print(b)
+
+#===================================
+a = input("Enter a word : ")
+pos = int(input("Enter position : "))
+b = ''
+b = a[:pos] + a[pos+1:]
+print(b)
