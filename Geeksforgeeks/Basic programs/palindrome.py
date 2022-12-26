@@ -27,3 +27,9 @@ if (a == b):
     print("Yes")
 else:
     print("No")
+
+#===========================
+
+a = "welcome"
+b = a[::-1]
+print("is palindrome" if a == b else "not palindrome")
